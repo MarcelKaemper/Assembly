@@ -1,6 +1,4 @@
 section .data
-    msg db "You typed:", 0xa
-    len equ $ - msg
 
 section .bss
     inp resb 16
@@ -18,7 +16,7 @@ _start:
     mov rax, 1
     mov rdi, 0
     mov rsi, inp
-    mov rdx, len
+    mov rdx, 16
     syscall
 
     mov rax, 60
