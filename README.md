@@ -1,4 +1,9 @@
-# Assembly  
+# Assembly X86_64
+## Table of Contents  
+- [Nasm installation](#nasm-installation)  
+  * [Arch based system](#arch-based-systems)  
+  * [Debian based system](#debian-based-systems)  
+- [How to run?](#how-to-run)  
 ## Nasm installation  
 ### (Arch based systems)  
 ```
