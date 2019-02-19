@@ -14,7 +14,7 @@ _start:
     syscall
 
     mov rax, 1
-    mov rdi, 0
+    mov rdi, 1
     mov rsi, inp
     mov rdx, 16
     syscall
