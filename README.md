@@ -15,7 +15,7 @@ sudo apt-get install nasm
 ```
 ## How to run?  
 ```
-nasm -f elf64 <name.asm>
-ld <name.o> -o <name>
+nasm -f elf64 <name>.asm
+ld <name>.o -o <name>
 ./<name>
 ```
